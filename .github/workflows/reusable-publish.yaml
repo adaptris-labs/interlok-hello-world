@@ -6,7 +6,7 @@ on:
       DOCKERHUB_USERNAME:
         description: 'Username for docker to publish image'
         required: true
-      DOCKER_TOKEN:
+      DOCKERHUB_TOKEN:
         description: 'Token for docker to publish image'
         required: true
       SONAR_TOKEN:

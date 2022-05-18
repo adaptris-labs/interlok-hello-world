@@ -12,6 +12,6 @@ jobs:
     uses: ./.github/workflows/reusable-publish.yaml
     secrets:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-      DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       HEROKU_KEY: ${{ secrets.HEROKU_KEY }}

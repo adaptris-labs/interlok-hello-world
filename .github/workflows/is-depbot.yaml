@@ -1,7 +1,8 @@
 name: is-dependabot
 on:
   push:
-    branches: master
+    branches:
+      - master
 
 # Dependabot doesn't have access to secrets
 # when they instigate a standard PR github action.
