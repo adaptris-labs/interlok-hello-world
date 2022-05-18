@@ -9,7 +9,7 @@ on:
 jobs:
   publish:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    uses: ./.github/workflows/reusable-publish.yml
+    uses: ./.github/workflows/reusable-publish.yaml
     secrets:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
       DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
